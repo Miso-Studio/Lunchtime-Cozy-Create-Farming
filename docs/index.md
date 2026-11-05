@@ -15,7 +15,7 @@ Use this guide when you need help finding something or figuring out how a part o
 
 Install the pack, make a world and have a look at the in-game questbook. Start with whatever sounds fun. You can farm, cook, build, explore or work on a Create project.
 
-**[Getting started →](getting-started.md)**
+There's no one way to play Lunchtime. Follow the quests or ignore them for a while. It's your world.
 
 ## What can you do?
 
@@ -26,21 +26,16 @@ Install the pack, make a world and have a look at the in-game questbook. Start w
 - **🌍 Explore** — find new places, structures and resources.
 - **🤝 Play together** — share builds, trade, cook and work on projects with friends.
 
-There's no one way to play Lunchtime. Follow the quests or ignore them for a while. It's your world.
-
 ## Useful links
 
 | Looking for… | Go here |
 |---|---|
-| How to get started | [Getting started](getting-started.md) |
-| Quests and progression | [Quests and progression](quests-and-progression.md) |
-| Farming and cooking | [Farming and cooking](farming-and-cooking.md) |
-| Create machines | [Create and automation](create-and-automation.md) |
-| Multiplayer and servers | [Multiplayer guide](multiplayer-and-servers.md) |
 | Full mod list | [Mod list](mod-list-full.md) |
+| Multiplayer and servers | [Multiplayer guide](multiplayer-and-servers.md) |
 | FPS and performance help | [Performance guide](performance.md) |
 | Common problems | [Troubleshooting](troubleshooting.md) |
 | What's changed | [Changelog](changelog.md) |
+| How tickets work | [Issue guide](ISSUE_TRIAGE.md) |
 
 For quick questions, come say hi in the [Lunchtime Discord](https://discord.gg/68yhDdFpnx). For bugs, use [GitHub Issues](ISSUE_TRIAGE.md).
 
