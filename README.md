@@ -46,7 +46,7 @@ There's no rush. Build your home, start a farm, make a factory, follow the quest
 
 ## Bugs & suggestions
 
-Found something broken or have an idea? [Open a GitHub ticket](https://github.com/wtfyls/Lunchtime-Cozy-Create-Farming/issues/new).
+Something broken? [Report a bug](https://github.com/wtfyls/Lunchtime-Cozy-Create-Farming/issues/new?template=bug_report.yml). Have an idea? [Send a suggestion](https://github.com/wtfyls/Lunchtime-Cozy-Create-Farming/issues/new?template=feature_request.yml).
 
 Please check existing tickets first. For quick gameplay help, come say hi in the [Lunchtime Discord](https://discord.gg/68yhDdFpnx).
 
