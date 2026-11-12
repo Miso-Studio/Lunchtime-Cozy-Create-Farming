@@ -86,7 +86,7 @@ Complementary Reimagined, Complementary Unbound and Photon are included. Pick on
 
 - Found a bug? [Report it here](https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/issues/new?template=bug_report.yml).
 - Have an idea for the pack? [Send a suggestion](https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/issues/new?template=feature_request.yml).
-- For questions and help while playing, join the [Lunchtime Discord](https://discord.gg/68yhDdFpnx).
+- For questions and help while playing, join the [Lunchtime Discord](https://discord.gg/aPD2SS2Cp6).
 
 ## Credits
 
