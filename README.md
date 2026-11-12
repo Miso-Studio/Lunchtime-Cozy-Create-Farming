@@ -38,7 +38,17 @@ The pack is made for single-player and small multiplayer groups, and it's tuned 
 - **Multiplayer:** Open Parties and Claims, Simple Voice Chat, Snail Mail and e4mc for hosting a world for friends without port forwarding.
 - **Calm nights:** no phantoms, fewer hostile mobs, longer days with Gentle Seasons, and new wildlife from Naturalist.
 
-See the [full mod list](MODLIST.md) for all 372 mods, resource packs and shaders.
+See the [full mod list](MODLIST.md) for all 346 mods.
+
+## Requirements
+
+| | |
+|---|---|
+| Minecraft | 1.20.1 |
+| Mod loader | Forge 47.4.29 |
+| Java | 17 (64-bit) |
+| RAM | 8 GB allocated (the pack uses about 6 GB) |
+| System RAM | 16 GB recommended |
 
 ## How to install
 

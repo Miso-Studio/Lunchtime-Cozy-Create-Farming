@@ -1,6 +1,6 @@
 # Lunchtime Performance Guide
 
-Lunchtime Cozy Create and Cooking v2 is a large Forge modpack for Minecraft 1.20.1, with 372 mods, resource packs and shaders. v2 is lighter than v1.5: it has 32 fewer mods, no Fabric compatibility layer, and new defaults tuned for Create bases. This guide covers RAM, settings, shaders and how to find the cause when the game slows down.
+Lunchtime Cozy Create and Cooking v2 is a large Forge modpack for Minecraft 1.20.1, with 346 mods. v2 is lighter than v1.5: it has 32 fewer mods, no Fabric compatibility layer, and new defaults tuned for Create bases. This guide covers RAM, settings, shaders and how to find the cause when the game slows down.
 
 ## Quick fixes
 
