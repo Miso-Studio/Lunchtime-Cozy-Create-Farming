@@ -1,24 +1,22 @@
 # Lunchtime Mod List
 
-Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** for Minecraft 1.20.1 Forge (372 entries). Libraries are listed last.
+Every mod in **Lunchtime Cozy Create and Cooking v2** for Minecraft 1.20.1 Forge (346 mods). Libraries are listed last.
 
 ## Categories
 
-- ⚡ Performance & Optimization: 35
-- ⚙️ Create & Automation: 14
-- 🍳 Farming, Cooking & Food: 31
-- 🌍 World Generation & Exploration: 41
-- ⚔️ Mobs, Bosses & Combat: 23
-- 🏡 Building, Decoration & Furniture: 23
-- 📜 Quests, Progression & Economy: 17
-- 🌐 Multiplayer & Server Tools: 13
-- 🎨 Interface, Visuals & Audio: 37
-- 🧰 Quality of Life, Inventory & Recipe Tools: 50
-- 🖼️ Resource Packs: 23
-- 🌈 Shaders: 3
-- 📚 Libraries & APIs: 62
+- Performance & Optimization: 35
+- Create & Automation: 14
+- Farming, Cooking & Food: 31
+- World Generation & Exploration: 41
+- Mobs, Bosses & Combat: 23
+- Building, Decoration & Furniture: 23
+- Quests, Progression & Economy: 17
+- Multiplayer & Server Tools: 13
+- Interface, Visuals & Audio: 37
+- Quality of Life, Inventory & Recipe Tools: 50
+- Libraries & APIs: 62
 
-## ⚡ Performance & Optimization (35)
+## Performance & Optimization (35)
 
 - [AllTheLeaks (Memory Leak Fix)](https://www.curseforge.com/minecraft/mc-mods/alltheleaks) — Fixes memory leaks in selected mods, Minecraft, and NeoForge while upstream fixes are pending. — by Uncandango
 - [Alternate Current](https://www.curseforge.com/minecraft/mc-mods/alternate-current) — Provides an efficient, non-locational implementation of redstone dust. — by SpaceWalkerRS
@@ -56,7 +54,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [spark](https://www.curseforge.com/minecraft/mc-mods/spark) — Provides profiling tools for diagnosing server tick, CPU, and memory-performance issues. — by Iucko
 - [Structure Layout Optimizer](https://www.curseforge.com/minecraft/mc-mods/structure-layout-optimizer) — Optimizes structure placement and layout during world generation. — by telepathicgrunt
 
-## ⚙️ Create & Automation (14)
+## Create & Automation (14)
 
 - [Clockwork](https://www.curseforge.com/minecraft/mc-mods/clockwork) — Adds a range of mechanical tools and utilities. — by joosh_7889
 - [Create Cobblestone](https://www.curseforge.com/minecraft/mc-mods/create-cobblestone) — A stress-powered cobblestone generator. — by MrStickyPiston
@@ -73,7 +71,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Create](https://www.curseforge.com/minecraft/mc-mods/create) — Adds mechanical engineering and automation tools for building moving contraptions and machines. — by simibubi
 - [EMI: Create Schematics](https://www.curseforge.com/minecraft/mc-mods/emi-create-schematics) — Lets Create schematic items be added to EMI's Favorites list. — by LiukRast
 
-## 🍳 Farming, Cooking & Food (31)
+## Farming, Cooking & Food (31)
 
 - [[Let's Do Addon] EMI Compat](https://www.curseforge.com/minecraft/mc-mods/lets-do-emi-compat) — Adds EMI recipe-viewer compatibility for the Let's Do mod series. — by pandaismyname1
 - [[Let's Do] Bakery - Farm&Charm Compat](https://www.curseforge.com/minecraft/mc-mods/lets-do-bakery-farm-charm-compat) — Adds edible and placeable bread, cupcakes, and cakes, with compatibility for Let's Do: Farm & Charm. — by satisfy
@@ -107,7 +105,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Starcatcher's Delight - Let's Do: Kaleidoscope edition](https://www.curseforge.com/minecraft/mc-mods/starcatchers-delight) — by wdiscute
 - [Starcatcher](https://www.curseforge.com/minecraft/mc-mods/starcatcher) — by wdiscute
 
-## 🌍 World Generation & Exploration (41)
+## World Generation & Exploration (41)
 
 - [Accelerated Decay](https://www.curseforge.com/minecraft/mc-mods/accelerated-decay) — Speeds up leaf decay. — by ErrorMikey
 - [Alex's Caves](https://www.curseforge.com/minecraft/mc-mods/alexs-caves) — Adds five rare cave biomes hidden underground, with their own exploration content. — by sbom_xela
@@ -151,7 +149,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [YUNG's Better Witch Huts (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts) — Reworked witch huts for swamps. — by YUNGNICKYOUNG
 - [YUNG's Cave Biomes (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-cave-biomes) — Adds biome variety to caves. — by YUNGNICKYOUNG
 
-## ⚔️ Mobs, Bosses & Combat (23)
+## Mobs, Bosses & Combat (23)
 
 - [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) — Adds treasure items that players can discover through exploration. — by ochotonida
 - [Charm of Undying (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying) — Adds Curios/Trinkets support so the Totem of Undying can be equipped in an accessory slot instead of held. — by TheIllusiveC4
@@ -177,7 +175,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Soul fire'd](https://www.curseforge.com/minecraft/mc-mods/soul-fire-d) — Gives soul fire its own damage and enchantments. — by CrystalSpider
 - [Too Many Bows](https://www.curseforge.com/minecraft/mc-mods/too-many-bows) — Adds extra bows and ranged weapon options. — by Bandit_Bytes
 
-## 🏡 Building, Decoration & Furniture (23)
+## Building, Decoration & Furniture (23)
 
 - [Amendments](https://www.curseforge.com/minecraft/mc-mods/amendments) — Adds block interactions and variants such as potion mixing in cauldrons, animated lanterns, carpeted stairs, candle skulls, double cakes, and improved lily pads. — by plantspookable
 - [Another Furniture](https://www.curseforge.com/minecraft/mc-mods/another-furniture) — Adds furniture blocks and decorative pieces for building and interior design. — by crispytwig
@@ -195,7 +193,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Immersive Paintings](https://www.curseforge.com/minecraft/mc-mods/immersive-paintings) — Lets players add their own paintings by dragging and dropping images, including in multiplayer. — by Conczin
 - [Lucky's Cozy Home: Stone & Waterworks Update](https://www.curseforge.com/minecraft/mc-mods/cozy-home) — by LuckyOwl
 - [Plushie Buddies](https://www.curseforge.com/minecraft/mc-mods/plushie-buddies) — Adds plushie collectibles and decorations. — by subthy
-- [Pool Table 🎱](https://www.curseforge.com/minecraft/mc-mods/pool-table) — A playable 3x5 pool table with ball physics and 8-ball rules. — by FunkyMonkey95
+- [Pool Table](https://www.curseforge.com/minecraft/mc-mods/pool-table) — A playable 3x5 pool table with ball physics and 8-ball rules. — by FunkyMonkey95
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark) — Adds a broad collection of configurable vanilla-style improvements, blocks, and small gameplay features. — by Vazkii
 - [Sit](https://www.curseforge.com/minecraft/mc-mods/sit) — Lets players sit on supported blocks. — by bl4ckscor3
 - [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers) — Adds compact drawers designed for bulk item storage. — by Texelsaur
@@ -203,7 +201,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Vista](https://www.curseforge.com/minecraft/mc-mods/vista) — Tech blocks like a television and cameras. — by MehVahdJukaar
 - [Weavers Paradise](https://www.curseforge.com/minecraft/mc-mods/weavers-paradise) — Make thread and fabric, then dyeable clothing with stencils. — by Vortianski
 
-## 📜 Quests, Progression & Economy (17)
+## Quests, Progression & Economy (17)
 
 - [Create: Numismatics](https://www.curseforge.com/minecraft/mc-mods/numismatics) — Create-style currency and coins that work with redstone. Replaces player shops. — by IThundxr
 - [Easy Villagers](https://www.curseforge.com/minecraft/mc-mods/easy-villagers) — Adds convenience features for handling villager-related tasks. — by henkelmax
@@ -223,7 +221,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) — Adds waystones for travelling between discovered locations. — by BlayTheNinth
 - [wd's Selling Bin](https://www.curseforge.com/minecraft/mc-mods/wds-selling-bin) — Adds a selling-bin block for selling eligible items. — by wdiscute
 
-## 🌐 Multiplayer & Server Tools (13)
+## Multiplayer & Server Tools (13)
 
 - [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) — Changes the server compatibility check to compare modpack versions. — by Gaz_
 - [Better Ping Display](https://www.curseforge.com/minecraft/mc-mods/better-ping-display) — Displays ping in milliseconds in the player list, with configurable presentation. — by Quintinity
@@ -239,7 +237,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat) — Adds proximity-based voice chat for multiplayer. — by henkelmax
 - [Snail Mail](https://www.curseforge.com/minecraft/mc-mods/snail-mail) — Send packages to friends with snail boxes, envelopes and stamps. — by Coda1552
 
-## 🎨 Interface, Visuals & Audio (37)
+## Interface, Visuals & Audio (37)
 
 - [[EMF] Entity Model Features [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/entity-model-features) — OptiFine-format custom entity models for supported resource packs. — by Traben
 - [[ETF] Entity Texture Features - [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric) — Custom, emissive, and varied mob textures, plus player-skin features. — by Traben
@@ -268,7 +266,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Mod Menu (Forge)](https://www.curseforge.com/minecraft/mc-mods/mod-menu-forge-by-bogdan-tokarev) — Adds an in-game mod menu so players can view installed mods and related information. — by Bogdan_Tokarev
 - [Model Gap Fix](https://www.curseforge.com/minecraft/mc-mods/model-gap-fix) — Fixes visible gaps that can appear between some block models. — by MehVahdJukaar
 - [Oculus](https://www.curseforge.com/minecraft/mc-mods/oculus) — Adds shader-pack support for compatible Forge rendering setups. — by Asek3
-- [Particular ✨ Reforged](https://www.curseforge.com/minecraft/mc-mods/particular-reforged) — Adds visual particle effects to various game events. — by Project8gbDeRam
+- [Particular Reforged](https://www.curseforge.com/minecraft/mc-mods/particular-reforged) — Adds visual particle effects to various game events. — by Project8gbDeRam
 - [Presence Footsteps (Forge)](https://www.curseforge.com/minecraft/mc-mods/presence-footsteps-forge) — Adds contextual footstep sounds for a more immersive audio experience. — by Paint_Ninja
 - [Punchy! Moves](https://www.curseforge.com/minecraft/mc-mods/punchy-moves) — Third-person animations, a shoulder camera, expressions and emotes on top of Punchy. — by DevPunchyMan
 - [Skin Layers 3D](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d) — Renders outer player-skin layers as 3D geometry. — by tr7zw
@@ -279,7 +277,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Welcome Screen (Modpack Utils Series)](https://www.curseforge.com/minecraft/mc-mods/welcome-screen) — Adds a custom welcome screen for the modpack. — by ElocinDev
 - [What Are They Up To (Watut)](https://www.curseforge.com/minecraft/mc-mods/what-are-they-up-to) — Adds visual indicators of what certain entities are currently doing. — by Corosus
 
-## 🧰 Quality of Life, Inventory & Recipe Tools (50)
+## Quality of Life, Inventory & Recipe Tools (50)
 
 - [Advanced Loot Info (ALI)](https://www.curseforge.com/minecraft/mc-mods/advanced-loot-info) — Adds an EMI/JEI/REI plugin that displays information about loot tables and villager trades. — by yanny7777
 - [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin) — Adds useful food and hunger information to the HUD. — by squeek502
@@ -316,7 +314,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Inventorio (Forge)](https://www.curseforge.com/minecraft/mc-mods/inventorio-forge) — Enhances Minecraft's inventory; see the linked project page for the exact inventory changes. — by Lizard_OfOz
 - [Item Descriptions](https://www.curseforge.com/minecraft/mc-mods/item-descriptions) — Adds descriptions for blocks, items, and mobs, with support for adding modded content. — by cassiancc
 - [Jade Addons (Neo/Forge)](https://www.curseforge.com/minecraft/mc-mods/jade-addons) — Adds additional Jade integrations and information displays for supported mods. — by Snownee
-- [Jade 🔍](https://www.curseforge.com/minecraft/mc-mods/jade) — Shows information about the block or entity the player is looking at. — by Snownee
+- [Jade](https://www.curseforge.com/minecraft/mc-mods/jade) — Shows information about the block or entity the player is looking at. — by Snownee
 - [Magnum Torch](https://www.curseforge.com/minecraft/mc-mods/magnum-torch) — Adds powerful torches that prevent mob spawns around a home over a large area. — by Fuzs
 - [Mining Utility: Reforged](https://www.curseforge.com/minecraft/mc-mods/mining-utility-reforged) — Mining and cave helpers like the Escape Rope and mining helmets. — by wtfyls
 - [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) — Improves mouse-based item movement and inventory interactions. — by YaLTeR
@@ -332,39 +330,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) — Adds a minimap with waypoints. — by xaero96
 - [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map) — Adds a full-screen world map and waypoint management. — by xaero96
 
-## 🖼️ Resource Packs (23)
-
-- [Alternative Rain Sounds](https://www.curseforge.com/minecraft/texture-packs/alternative-rain-sounds) — New sounds for rain and thunder. — by paoleks
-- [Boss Refreshed](https://www.curseforge.com/minecraft/texture-packs/boss-refreshed) — by lukidon
-- [Clear Splyglass [Deez]](https://www.curseforge.com/minecraft/texture-packs/clear-splyglass-deez) — by wtfyls
-- [Comforts Modernized](https://www.curseforge.com/minecraft/texture-packs/comforts-modernized) — by pedro041506
-- [Create Immersive Aircrafts](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack) — by nicky__21
-- [Create Lootr](https://www.curseforge.com/minecraft/texture-packs/create-lootr) — by wtfyls
-- [Create Style Sophisticated Backpacks](https://www.curseforge.com/minecraft/texture-packs/create-sophisticated-backpacks) — by Luna
-- [Create: Better Tom's  Storage GUI](https://www.curseforge.com/minecraft/texture-packs/create-better-toms-storage-gui) — Restyles Tom's Simple Storage screens to match Create. — by wtfyls
-- [Create: Steam 'n' Rails Unique Icons](https://www.curseforge.com/minecraft/texture-packs/create-sru) — by wavian
-- [Deez FPS [Better Textures]](https://www.curseforge.com/minecraft/texture-packs/deez-fps-better-textures) — by wtfyls
-- [Enchantment Glows](https://www.curseforge.com/minecraft/texture-packs/enchantment-glows) — by Sinnelar
-- [Enhanced Boss Bars](https://www.curseforge.com/minecraft/texture-packs/enhanced-boss-bars) — by Nakuring
-- [Fluid & Foolish](https://www.curseforge.com/minecraft/texture-packs/fluid-foolish) — Brings Punchy's Silly Moves animations back. — by Craftandoof
-- [Fresh Waystones Texture](https://www.curseforge.com/minecraft/texture-packs/fresh-waystones-texture) — by zozozrob
-- [Icon Fresh](https://www.curseforge.com/minecraft/texture-packs/icon-fresh) — by godkyo98
-- [Icon Xaero's](https://www.curseforge.com/minecraft/texture-packs/icon-xaeros) — by godkyo98
-- [Midnighttigger's Default Connected Textures](https://www.curseforge.com/minecraft/texture-packs/mt-ct-d) — by Midnighttigger
-- [Punchy Starcatcher Compatibility Patch](https://www.curseforge.com/minecraft/texture-packs/punchy-starcatcher-compatibility-patch) — by TheKoza
-- [Refined punchy Reforked](https://www.curseforge.com/minecraft/texture-packs/refined-punchy-reforked) — by HeyLumora
-- [Small Caps [DEEZ]](https://www.curseforge.com/minecraft/texture-packs/small-caps-deez) — by wtfyls
-- [Smooth Drawers](https://www.curseforge.com/minecraft/texture-packs/smooth-drawers) — by Futureazoo
-- [Soft Weather](https://www.curseforge.com/minecraft/texture-packs/soft-weather) — Rain and snow get in the way less. — by vectorwing
-- [Unique Dark](https://www.curseforge.com/minecraft/texture-packs/unique-dark) — by amongstreality
-
-## 🌈 Shaders (3)
-
-- [Complementary Shaders - Reimagined](https://www.curseforge.com/minecraft/shaders/complementary-reimagined) — The default shader in Lunchtime. — by EminGT
-- [Complementary Shaders - Unbound](https://www.curseforge.com/minecraft/shaders/complementary-unbound) — Complementary Shaders, Unbound style. — by EminGT
-- [Photon](https://modrinth.com/shader/photon-shader) — A shader pack, included as an option. — by SixthSurge
-
-## 📚 Libraries & APIs (62)
+## Libraries & APIs (62)
 
 - [Advanced Core Info (ACI)](https://www.curseforge.com/minecraft/mc-mods/advanced-core-info) — Core library for Advanced Loot Info. — by yanny7777
 - [Almanac Lib](https://www.curseforge.com/minecraft/mc-mods/almanac-lib) — Shared library for frikinjay's mods. — by frikinjay
@@ -396,7 +362,7 @@ Every mod, resource pack and shader in **Lunchtime Cozy Create and Cooking v2** 
 - [Iceberg [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/iceberg) — Events and helpers library for Grend_G's mods. — by Grend_G
 - [Integrated API](https://www.curseforge.com/minecraft/mc-mods/integrated-api) — Library for the Integrated Structures series. — by CraisinLord
 - [JamLib](https://www.curseforge.com/minecraft/mc-mods/jamlib) — Shared library for JamCore's mods. — by jamalam360
-- [Kiwi 🥝 (Neo/Forge)](https://www.curseforge.com/minecraft/mc-mods/kiwi) — Shared library for Snownee's mods. — by Snownee
+- [Kiwi (Neo/Forge)](https://www.curseforge.com/minecraft/mc-mods/kiwi) — Shared library for Snownee's mods. — by Snownee
 - [Knight Lib](https://www.curseforge.com/minecraft/mc-mods/knight-lib) — Library that bridges xylonity's mods. — by xylonity
 - [Konkrete](https://www.curseforge.com/minecraft/mc-mods/konkrete) — Library for Keksuccino's mods. — by Keksuccino
 - [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge) — Kotlin language support for mods written in Kotlin. — by thedarkcolour
