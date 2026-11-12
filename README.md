@@ -9,7 +9,7 @@
 <p>
   <a href="https://www.curseforge.com/minecraft/modpacks/lunch-but"><img src="https://raw.githubusercontent.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/main/assets/curseforgelarge.png" alt="Download Lunchtime on CurseForge" height="48"></a>
   &nbsp;
-  <a href="https://discord.gg/68yhDdFpnx"><img src="https://raw.githubusercontent.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/main/assets/discordlarge.png" alt="Join the Lunchtime Discord" height="48"></a>
+  <a href="https://discord.gg/aPD2SS2Cp6"><img src="https://raw.githubusercontent.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/main/assets/discordlarge.png" alt="Join the Lunchtime Discord" height="48"></a>
   &nbsp;
   <a href="https://www.patreon.com/cw/Fierolam"><img src="https://raw.githubusercontent.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/main/assets/patreonlarge.png" alt="Support Lunchtime on Patreon" height="48"></a>
   &nbsp;
