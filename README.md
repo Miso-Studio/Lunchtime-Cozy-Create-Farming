@@ -40,16 +40,6 @@ The pack is made for single-player and small multiplayer groups, and it's tuned 
 
 See the [full mod list](MODLIST.md) for all 372 mods, resource packs and shaders.
 
-## Requirements
-
-| | |
-|---|---|
-| Minecraft | 1.20.1 |
-| Mod loader | Forge 47.4.29 |
-| Java | 17 (64-bit) |
-| RAM | 8 GB allocated (the pack uses about 6 GB) |
-| System RAM | 16 GB recommended |
-
 ## How to install
 
 1. Install the [CurseForge app](https://www.curseforge.com/download/app).
