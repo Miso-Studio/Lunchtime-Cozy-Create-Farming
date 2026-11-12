@@ -11,7 +11,7 @@ GitHub Issues are public tickets for things the Lunchtime team should track. The
 | Reproducible server, multiplayer, compatibility, or performance problems | Whitelist, account, payment, or other private server matters |
 | Ideas for mods, quests, recipes, progression, or improvements | Personal information or sensitive reports |
 
-Open the [Issues page](https://github.com/wtfyls/Lunchtime-Cozy-Create-Farming/issues), choose **New issue**, and select the Bug report or Feature request form. Search existing issues first so the same problem does not get reported several times.
+Open the [Issues page](https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/issues), choose **New issue**, and select the Bug report or Feature request form. Search existing issues first so the same problem does not get reported several times.
 
 ## How to write a useful ticket
 
@@ -34,7 +34,7 @@ The issue forms add a type label automatically:
 
 ## One-time label setup
 
-Open [Issues → Labels](https://github.com/wtfyls/Lunchtime-Cozy-Create-Farming/issues/labels), click **New label**, and create these labels if they do not already exist:
+Open [Issues → Labels](https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/issues/labels), click **New label**, and create these labels if they do not already exist:
 
 | Label | Description |
 |---|---|

@@ -1,98 +1,143 @@
 # Lunchtime Performance Guide
 
-Lunchtime is a large Forge modpack for Minecraft 1.20.1. The supplied mod list contains **379 entries**, including content mods, world-generation mods, client visuals, performance tools, and shared libraries. That means performance depends on more than one setting: your hardware, RAM allocation, the world, what is loaded nearby, and whether you are playing single-player or on a dedicated server all matter.
+Lunchtime Cozy Create and Cooking v2 is a large Forge modpack for Minecraft 1.20.1, with 372 mods, resource packs and shaders. v2 is lighter than v1.5: it has 32 fewer mods, no Fabric compatibility layer, and new defaults tuned for Create bases. This guide covers RAM, settings, shaders and how to find the cause when the game slows down.
 
-This guide gives you a reliable starting point. The settings below are practical suggestions, not official minimum requirements or guaranteed FPS targets.
+## Quick fixes
 
-## Quick fixes first
+If the pack feels slow, try these in order:
 
-If Lunchtime feels slow, try these in order:
+1. **Let the first launch finish.** The first start after installing or updating takes the longest. On an Apple M1 Pro with 16 GB of RAM, v2 takes about 80 seconds to reach the main menu.
+2. **Use Java 17 (64-bit).** Let CurseForge or your launcher use its bundled Java.
+3. **Allocate 8 GB of RAM.** See [RAM and Java](#ram-and-java).
+4. **Turn shaders off** while you test. Shaders are the biggest FPS cost in the pack.
+5. **Keep the default distances** (render 10, simulation 8), or lower them if you still lag.
+6. **Don't add extra optimization mods or JVM flags.** The pack already includes the ones below, and replacements can conflict with them.
 
-1. **Let the first launch finish.** Large packs may take longer to initialize after an update. Avoid force-closing the game while it is still loading unless it is genuinely unresponsive.
-2. **Use the correct Java version.** Minecraft 1.20.1 modpacks normally use a 64-bit Java 17 runtime. Let your launcher manage the bundled runtime when it offers a compatible one.
-3. **Start with default Lunchtime settings.** Temporarily remove extra shaders, resource packs, or additional mods you added yourself when troubleshooting.
-4. **Lower render and simulation distance.** Start at 8 chunks render distance and 5–6 chunks simulation distance. Raise them gradually if performance is good.
-5. **Check what kind of lag you have.** Low FPS, slow chunk generation, and server tick lag are different problems. See [Diagnosing the problem](#diagnosing-the-problem).
-6. **Don't blindly add optimization mods or JVM arguments.** Lunchtime already includes several optimization and diagnostic mods. Extra replacements may conflict with the pack.
+## RAM and Java
 
-## Client settings
+**Allocate 8 GB.** In normal play the pack uses about 6 GB of that (around 75%), so the rest leaves room for busy moments like exploring new terrain.
 
-These are good starting values for a mid-range or lower-end PC. Adjust one setting at a time so you can tell which change helped.
-
-| Setting | Starting point | Why |
-|---|---:|---|
-| Render distance | 8 chunks | Fewer terrain sections to render |
-| Simulation distance | 5–6 chunks | Fewer nearby chunks actively ticking |
-| Entity distance | 50–75% | Reduces how far away entities are rendered |
-| Particles | Decreased | Reduces particle workload in busy scenes |
-| Graphics | Fast or Fancy, whichever performs better | Fancy effects can cost more on some systems |
-| Clouds | Off, if needed | Removes a visual layer |
-| Shaders | Off while troubleshooting | Shader packs can add substantial GPU load |
-| High-resolution resource packs | Disable while testing | Large textures can increase VRAM and memory use |
-
-For the fairest test, load the same world and stand in the same place before and after each change. Moving through a new area makes the game generate and load terrain, so it is not a clean FPS comparison.
-
-## Memory and Java
-
-### How much RAM should I allocate?
-
-For this large pack, **8 GB is a reasonable starting point for the Minecraft client** on a computer with enough total memory. Some systems or sessions may need less or more; measure actual use before changing it. This is a practical starting suggestion, not a tested guarantee for every Lunchtime version.
-
-- Do not allocate all system RAM to Minecraft. Your operating system, launcher, browser, voice chat, and other applications also need memory.
-- Too little memory can cause repeated garbage collection, stutters, or crashes.
-- More allocated RAM is not automatically better. Excessive allocation can leave too little memory for the rest of the computer and may not improve performance.
-- Use your launcher's memory setting rather than copying a large bundle of Java flags from a random guide.
-- If you change memory allocation, restart Minecraft completely before testing again.
-
-For a dedicated server, choose memory based on player count, world-generation activity, view distance, loaded machines, and measured use. Don't assume that the client and server should receive the same allocation.
-
-## Performance mods included in Lunchtime
-
-The supplied list already includes a number of optimization and troubleshooting tools. Their exact effects depend on configuration, hardware, and compatibility; they do not eliminate the cost of every content or world-generation mod.
-
-| Mod | Main purpose |
+| Your total system RAM | Allocate to Minecraft |
 |---|---|
-| **Embeddium** | Reworks client terrain rendering and optimizes rendering workloads. |
-| **ModernFix** | A broad collection of performance, memory-use, loading, and bug-fix improvements. |
-| **Ferrite Core** | Reduces memory use in supported game data structures. |
-| **BadOptimizations** | Applies assorted client-side performance optimizations. |
-| **Dynamic FPS** | Reduces resource use when Minecraft is unfocused or in the background. |
-| **Entity Culling** | Skips rendering entities that are hidden from view. |
-| **More Culling** | Avoids drawing certain block faces and other elements that cannot be seen. |
-| **ImmediatelyFast** | Optimizes several immediate-mode rendering paths. Check the exact installed file's compatibility with the pack's Minecraft version. |
-| **Fast Noise Mod** | Optimizes parts of vanilla world-generation noise calculations. |
-| **Concurrent Chunk Management Engine (Forge)** | Attempts to improve chunk generation, loading, and I/O by doing more work concurrently. Custom world-generation mods can make compatibility testing especially important. |
-| **Alternate Current** | Optimizes redstone wire updates. |
-| **Radium** | Provides general game-logic optimizations derived from the Lithium project. |
-| **FastBoot** | Targets startup/loading performance. |
-| **FastFurnace, Fast Workbench, Fast Suite** | Optimize selected recipe, furnace, or crafting-related operations. |
-| **Fast Item Frames, Fast Paintings** | Reduce overhead associated with supported item-frame and painting behavior. |
-| **Fastvancements** | Optimizes advancement-related processing. |
-| **Async Logger** | Moves supported logging work off the main execution path. |
-| **AsyncParticles** | Changes how supported particle work is handled to reduce its impact. |
-| **Mobtimizations** | Applies optimizations to mob/entity-related processing. |
-| **Structure Layout Optimizer** | Optimizes aspects of structure placement/layout calculations. |
-| **Chunky** | Lets server administrators pre-generate chunks before players explore them. |
-| **spark** | Profiles CPU/tick activity so you can diagnose the actual source of lag. |
+| 8 GB | Not recommended. Try 6 GB with shaders off and low distances |
+| 16 GB | 8 GB (recommended) |
+| 32 GB or more | 8 to 10 GB |
 
-Some optimization tools target only the client, others the server, and some both. Don't copy every client-only mod into a dedicated server, and don't remove a mod from only one side if the pack expects it on both. Use the pack's official server files and instructions.
+- Don't give Minecraft all of your RAM. Your system, the launcher, Discord and your browser need memory too.
+- More RAM isn't always faster. Above about 10 GB, garbage-collection pauses can get longer and cause stutter.
+- Use your launcher's memory slider instead of copying JVM flags from other guides.
+- After changing RAM, restart the game completely before you test again.
 
-References: [Embeddium](https://modrinth.com/mod/embeddium), [ModernFix](https://modrinth.com/mod/modernfix), [Fast Noise](https://modrinth.com/project/OnlVIpq5), [C2ME for Forge](https://modrinth.com/mod/c2mef), and [spark command documentation](https://spark.lucko.me/docs/Commands).
+## Default settings in v2
 
-## Dedicated server performance
+v2 ships with these defaults. They give steady TPS in big Create bases on mid-range PCs.
 
-If you host a Lunchtime server, these are reasonable **initial test values**, not mandatory settings:
+| Setting | v2 default | Notes |
+|---|---:|---|
+| Render distance | 10 chunks | Bobby Reforged keeps chunks you've already seen visible farther out |
+| Simulation distance | 8 chunks | The biggest factor for tick lag with Create contraptions and farms |
+| Shader shadow distance | 6 chunks | Set in Oculus. Shadows cost a lot of GPU time |
+| Default shader | Complementary Reimagined | Complementary Unbound and Photon are also included |
 
-- `view-distance=6` to `8`
-- `simulation-distance=4` to `6`
+On a low-end PC, try these:
 
-Lower distances can reduce the amount of world and entity activity the server must handle. Increase them only after checking performance with your usual number of players and the areas they visit.
+| Setting | Try | Why |
+|---|---:|---|
+| Render distance | 6 to 8 chunks | Fewer chunks to draw |
+| Simulation distance | 5 to 6 chunks | Fewer chunks ticking around you |
+| Entity distance | 50 to 75% | Draws entities over a shorter range |
+| Particles | Decreased | Less work in busy scenes |
+| Shaders | Off | Shaders can cost more than everything else combined |
+| Clouds | Off | One less layer to draw |
+
+Change one setting at a time and test in the same place in the same world. Moving into new terrain makes the game generate chunks, which isn't a fair FPS comparison.
+
+## Shaders
+
+Lunchtime includes three shader packs. Pick one in **Options → Video Settings → Shader Packs**.
+
+- **Complementary Reimagined** is the default, with a vanilla-like look.
+- **Complementary Unbound** is the other Complementary style.
+- **Photon** is a separate shader pack with its own lighting.
+
+If your FPS drops with shaders on, lower the shader profile in its settings first, then lower the shadow distance. Turn shaders off completely when you're troubleshooting.
+
+## Performance mods in the pack
+
+These mods are already in Lunchtime v2. You don't need to add anything.
+
+**Rendering (client)**
+
+| Mod | What it does |
+|---|---|
+| Embeddium | Faster terrain rendering. Most other rendering mods build on it |
+| Flerovium | Embeddium add-on that speeds up item, particle and entity rendering |
+| ImmediatelyFast | Speeds up immediate-mode rendering like the HUD, text and items |
+| Entity Culling | Skips drawing entities and block entities you can't see |
+| More Culling Reforged | Skips drawing block faces and objects you can't see |
+| Gnetum | Spreads HUD updates over several frames |
+| Bobby Reforged | Caches chunks you've seen so you can view past the server's view distance |
+| BadOptimizations | Small client-side optimizations outside of rendering |
+
+**Memory and loading**
+
+| Mod | What it does |
+|---|---|
+| ModernFix | Memory, loading and bug fixes. v2 turns on its dynamic resources option to lower RAM use |
+| FerriteCore | Lowers memory use of game data |
+| AllTheLeaks | Fixes memory leaks in Minecraft and some mods |
+| Jasione | Reduces garbage-collection pressure |
+| quick pack | Loads zipped datapacks and resource packs faster |
+| Async Logger | Moves logging off the main thread |
+
+**World generation and ticking**
+
+| Mod | What it does |
+|---|---|
+| FastChunkGen | Multithreaded chunk generation, loading and saving |
+| Radium Re-Reforged | Forge port of Lithium, speeds up general game logic |
+| Fast Noise | Faster world-generation noise |
+| Structure Layout Optimizer | Faster structure placement |
+| Feature Recycler | Prevents crashes between world-generation mods |
+| Create: LazyTick | Cuts lag from Create machines |
+| Mobtimizations | Cheaper mob AI |
+| Let Me Despawn | Lets more mobs despawn so they don't pile up |
+| Alternate Current | Faster redstone dust |
+| FastFurnace, FastWorkbench, FastSuite | Faster furnace, crafting table and recipe lookups |
+| Fast Item Frames, Fast Paintings | Cheaper item frames and paintings |
+| Fastvancements, FastALI | Faster advancements and loot info |
+
+**Network and tools**
+
+| Mod | What it does |
+|---|---|
+| Krypton Reno | Optimizes the network stack |
+| Chunky | Pre-generates terrain on servers |
+| spark | Profiles lag so you can see what's causing it |
+| MixinTrace Resmithed | Adds mixin details to crash reports |
+
+### What changed from v1.5
+
+- **Sinytra Connector and Forgified Fabric API were removed.** All mods now run on Forge directly, so loading is faster and there are fewer conflicts.
+- **C2ME was replaced by FastChunkGen**, and **Radium Reforged by Radium Re-Reforged**.
+- **Farsight was replaced by Bobby Reforged.**
+- **Dynamic FPS, FastBoot, Ksyxis, Immersive Optimization, AsyncParticles and Faster Iris Shadow Mapper were removed.** They overlapped with the mods above or caused problems with them.
+- **Heavy visual mods were removed:** Fresh Animations, Wakes, Subtle Effects, Legendary Tooltips, Immersive UI and Chat Animation.
+- **Creeper Overhaul, Enderman Overhaul, Bosses'Rise and Streams Reflowing were removed** because they added lag.
+- Particular's waterfall particles are off by default.
+
+## Dedicated servers
+
+Start with these values in `server.properties` and adjust them for your player count:
+
+- `view-distance=8`
+- `simulation-distance=6`
+
+Server RAM depends on player count, how much new terrain gets generated, and how many Create machines are loaded. 6 to 8 GB is a reasonable start for a small group of friends. Watch real use with spark before you raise it.
 
 ### Pre-generate terrain with Chunky
 
-New terrain can cause temporary CPU and disk load, especially in modpacks with many biomes and structures. If you administer the server, pre-generate a sensible area before players explore it.
-
-Example commands (run as a server operator; replace the center coordinates with your world spawn):
+Generating new terrain is the heaviest thing a Lunchtime server does. Pre-generate an area around spawn before players spread out:
 
 ```text
 /chunky center <spawnX> <spawnZ>
@@ -100,71 +145,49 @@ Example commands (run as a server operator; replace the center coordinates with 
 /chunky start
 ```
 
-Pick a radius that fits your storage and server capacity. World generation is expensive, so do this during maintenance or while the server is empty. Back up important worlds before major world-generation changes.
+Run it while the server is empty, and back up the world first.
 
-### Profile the server instead of guessing
+### Profile lag with spark
 
-If the server has lag spikes or low TPS, use the included **spark** profiler while the problem is happening. For a server, run:
+If the server has lag spikes or low TPS, run spark while the lag is happening:
 
 ```text
 /spark profiler start --timeout 120
 ```
 
-Reproduce the lag for about two minutes and let the profiler finish. The resulting report can show which code paths are using tick time. If you need to stop early, use `/spark profiler stop`.
+Keep playing normally for two minutes. spark then gives you a link to a report that shows which mod or machine is using the tick time. Use `/spark profiler stop` to end it early.
 
-Low FPS on your own computer is not automatically a server problem. Likewise, a server can have healthy tick performance while one player's client renders slowly.
+## Find the cause
 
-## Diagnose the symptom
+**Low FPS, but the world runs at normal speed**
+- Turn off shaders, then lower render distance, entity distance and particles.
+- Check that Minecraft is using your dedicated graphics card.
+- Close other GPU-heavy apps.
 
-### Low FPS, but the world runs at normal speed
+**Stutter while exploring**
+- This is usually chunk generation. Lower render distance for a while, or pre-generate on a server.
+- Go back to the same area after it has generated and compare.
 
-- Lower render distance, entity distance, and particles.
-- Disable shaders and high-resolution resource packs for a test.
-- Close GPU-heavy apps and check that Minecraft is using the intended graphics processor.
-- Check the GPU/VRAM and CPU load while the frame rate is low.
-- Make sure the issue also happens with the unmodified Lunchtime instance.
+**Server lag, rubber-banding or slow machines**
+- Check whether everyone has it or only you.
+- Lower simulation distance.
+- Run a spark profile while it's happening. Large Create contraptions, mob farms and lots of item entities are the usual causes.
 
-### Stutters when exploring or generating chunks
+**Crashes or very long loading**
+- Read `logs/latest.log` or the crash report and look for the first real error.
+- Make sure you're on the matching Minecraft (1.20.1), Forge (47.4.29), Java (17) and Lunchtime versions.
+- Remove any mods you added yourself before you report a pack bug.
+- Back up your world before changing mods on an existing save.
 
-- Reduce render distance temporarily.
-- Test the area again after it has been generated once.
-- On a server, consider controlled Chunky pre-generation.
-- Give new world-generation changes extra compatibility testing. Concurrent chunk-generation optimizers can interact with custom biome and structure mods.
+## Asking for help
 
-### Server lag, rubber-banding, or slow block/entity updates
-
-- Check whether everyone is affected or only one player.
-- Check server CPU, memory, storage, and network usage.
-- Reduce server view and simulation distance for a controlled test.
-- Run a spark profile during the lag rather than guessing which mod is responsible.
-- Check whether large Create contraptions, many entities, hoppers, or active farms are involved.
-
-### Crashes or long loading screens
-
-- Check the crash report and `logs/latest.log`; look for the first meaningful error, not just the last line.
-- Confirm you are running the supported Minecraft, Forge, Java, and Lunchtime versions together.
-- Remove any extra mods you added yourself before reporting a pack issue.
-- Don't delete worlds or randomly remove mods from an existing save. Back up the world first.
-
-## Lunchtime-specific notes
-
-Lunchtime contains extensive world-generation, structure, mob, Create, cooking, decoration, and recipe content. Exploring new terrain or loading a busy base can naturally cost more resources than standing still in an empty area. A performance mod may reduce a particular workload without making every situation faster.
-
-The **1.5 hotfix removed Ecliptic Seasons and its add-ons because of excessive CPU usage**. If you are using a different pack version or a custom instance, its mod list may differ from the current release notes. Check the actual installed pack version before comparing results.
-
-## When asking for help
-
-Please include:
+When you report a performance problem, include:
 
 - Lunchtime version and launcher
-- Minecraft/Forge version and Java version
-- Whether you play single-player, host a world, or use a dedicated server
-- Your CPU, GPU, and total system RAM
-- Whether the problem is low FPS, chunk generation, server TPS, stutter, or a crash
-- A relevant sanitized crash report, `latest.log`, or spark profile link
+- Minecraft, Forge and Java versions, and how much RAM you allocated
+- Single-player, a hosted LAN/e4mc world, or a dedicated server
+- Your CPU, GPU and total RAM
+- Whether it's low FPS, stutter, server TPS or a crash
+- `latest.log`, the crash report, or a spark link
 
-Remove passwords, access tokens, private IPs, and other sensitive information before sharing logs. A repeatable report helps us fix the cause instead of recommending random settings.
-
----
-
-*This guide is a troubleshooting baseline, not a benchmark claim. Performance varies by hardware, world, configuration, and installed pack version.*
+Remove passwords, tokens and IP addresses from logs before sharing them. Report bugs on [GitHub Issues](https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/issues) or ask in the [Lunchtime Discord](https://discord.gg/68yhDdFpnx).

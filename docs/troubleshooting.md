@@ -31,8 +31,8 @@ New terrain can take extra time to generate, especially with many biome and stru
 
 ## Report a bug well
 
-If the issue is reproducible, open a [GitHub issue](https://github.com/wtfyls/Lunchtime-Cozy-Create-Farming/issues) and include your pack version, what happened, what you expected, and steps to reproduce. Add a relevant sanitized log or crash report when possible.
+If the issue is reproducible, open a [GitHub issue](https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/issues) and include your pack version, what happened, what you expected, and steps to reproduce. Add a relevant sanitized log or crash report when possible.
 
 You can upload a log to [mclo.gs](https://mclo.gs/) and share the link. Remove private details first. Never post passwords, tokens, private IPs, or server addresses.
 
-For general gameplay help, use [Discord](https://discord.gg/68yhDdFpnx). See the full [Performance Guide](performance.md) for memory, server settings, and profiling.
+For general gameplay help, use [Discord](https://discord.gg/68yhDdFpnx). See the full [Performance Guide](../PERFORMANCE_GUIDE.md) for memory, server settings, and profiling.

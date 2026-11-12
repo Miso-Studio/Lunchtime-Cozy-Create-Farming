@@ -24,12 +24,12 @@ The pack's multiplayer tooling may provide team and chunk-management features de
 
 ## Performance on a server
 
-Large farms, moving Create contraptions, many entities, and new chunk generation can all affect performance. If a server slows down, collect the relevant timings or a spark profile while the problem is happening. See the [Performance Guide](performance.md).
+Large farms, moving Create contraptions, many entities, and new chunk generation can all affect performance. If a server slows down, collect the relevant timings or a spark profile while the problem is happening. See the [Performance Guide](../PERFORMANCE_GUIDE.md).
 
 ## Need help?
 
 - **Gameplay question:** [Lunchtime Discord](https://discord.gg/68yhDdFpnx)
-- **Reproducible pack issue:** [GitHub Issues](https://github.com/wtfyls/Lunchtime-Cozy-Create-Farming/issues)
+- **Reproducible pack issue:** [GitHub Issues](https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/issues)
 - **Hosting:** [BisectHosting partner page](https://www.bisecthosting.com/Deez), code DEEZ for the currently advertised discount subject to offer terms.
 
 Do not post private IPs, passwords, tokens, payment details, or private server information in public issues.

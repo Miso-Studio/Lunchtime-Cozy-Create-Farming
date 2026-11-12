@@ -6,10 +6,10 @@ This is a cozy Minecraft pack about farming, cooking, building, Create, explorin
 
 Use this guide when you need help finding something or figuring out how a part of the pack works.
 
-[Download Lunchtime](https://www.curseforge.com/minecraft/modpacks/lunch-but){ .md-button .md-button--primary }
-[Join the Discord](https://discord.gg/68yhDdFpnx){ .md-button }
-[Report a bug](https://github.com/wtfyls/Lunchtime-Cozy-Create-Farming/issues/new?template=bug_report.yml){ .md-button }
-[Suggest something](https://github.com/wtfyls/Lunchtime-Cozy-Create-Farming/issues/new?template=feature_request.yml){ .md-button }
+- [Download Lunchtime](https://www.curseforge.com/minecraft/modpacks/lunch-but)
+- [Join the Discord](https://discord.gg/68yhDdFpnx)
+- [Report a bug](https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/issues/new?template=bug_report.yml)
+- [Suggest something](https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/issues/new?template=feature_request.yml)
 
 ## New here?
 
@@ -30,11 +30,11 @@ There's no one way to play Lunchtime. Follow the quests or ignore them for a whi
 
 | Looking for… | Go here |
 |---|---|
-| Full mod list | [Mod list](mod-list-full.md) |
+| Full mod list | [Mod list](../MODLIST.md) |
 | Multiplayer and servers | [Multiplayer guide](multiplayer-and-servers.md) |
-| FPS and performance help | [Performance guide](performance.md) |
+| FPS and performance help | [Performance guide](../PERFORMANCE_GUIDE.md) |
 | Common problems | [Troubleshooting](troubleshooting.md) |
-| What's changed | [Changelog](changelog.md) |
+| What's changed | [Changelog](../CHANGELOG.md) |
 | How tickets work | [Issue guide](ISSUE_TRIAGE.md) |
 
 For quick questions, come say hi in the [Lunchtime Discord](https://discord.gg/68yhDdFpnx). For bugs, use [GitHub Issues](ISSUE_TRIAGE.md).
