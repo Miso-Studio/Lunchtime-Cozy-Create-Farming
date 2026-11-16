@@ -1,136 +1,60 @@
-# Lunchtime Cozy Create and Cooking v2.0
+# Lunchtime Cozy Create and Cooking v2.5.1
 
-v2 is the biggest update yet. I wanted the pack to run smoother, feel cozier and lean more on our own mods. The quest, job and claim systems are new, a lot of mods that slowed the game down or didn't fit got cut, and there's more Create, cooking, building and exploration content.
+A cleanup and bug-fix update: a faster recipe viewer, a fix for an item-duplication bug, fewer duplicate items between mods, and some Quark content turned back on.
 
-> [!WARNING]
-> **BACK UP YOUR WORLD, OR MAKE A NEW ONE FOR A BETTER AND SMOOTHER EXPERIENCE**
->
-> Quests, jobs, claims, graves and several mobs were replaced, so v1.5 worlds will lose a lot of data. Back up first if you want to try anyway.
+**⚠️ Before updating: take your tools out of the Inventorio tool belt and utility belt, or you'll lose them.** Inventorio has been removed. Existing v2.5 worlds are otherwise safe to update.
 
-**Recommended RAM: 8 GB.** The pack uses about 6 GB of that (~75%), so there's room to spare.
+## Recipe viewer: EMI → JEI
+The pack now uses **JEI** instead of EMI. It loads much faster and feels lighter in game, and almost every mod in the pack supports JEI directly.
 
-## Performance
-The pack starts faster, runs smoother and needs less memory than v1.5.
+- EMI → **Just Enough Items (JEI)**
+- EMI Ores → **Just Enough Resources**
+- EMI Professions → **Just Enough Professions**
+- EMIffect and EMI Enchants → **Just Enough Effect Descriptions**
+- Create EMI, EMI Create Schematics, EMI Let's Do Compat, Distraction Free Recipes and TMRV are removed, because nothing needs them with JEI
+- **New:** Just Enough Breeding shows what each animal eats to breed
 
-- Sinytra Connector and Forgified Fabric API are gone. They let Fabric mods run on Forge, but that extra layer added load time and caused most of the mod conflicts. Every mod in the pack now runs on Forge directly.
-- C2ME (Forge port) is replaced by FastChunkGen, another multithreaded port of C2ME. It's faster and works better with the rest of the pack.
-- Radium Reforged is now Radium Re-Reforged, the newer Forge port of Lithium. It speeds up general game logic.
-- Farsight is replaced by Bobby Reforged, which caches chunks you've already seen so you can look past the server's view distance.
-- Flerovium is new. It's an Embeddium add-on that speeds up item, particle and entity rendering.
-- Krypton Reno is new and optimizes networking.
-- Create: LazyTick is new and cuts lag from Create machines on servers.
-- Dynamic FPS, FastBoot, Ksyxis, Immersive Optimization, AsyncParticles and Faster Iris Shadow Mapper were removed because they overlapped with the mods above or caused problems with them. Newer Iris versions already include the shadow mapper's speedup.
-- A few heavy visual mods are out: Wakes (boat splashes), Subtle Effects (extra particles), Legendary Tooltips, Immersive UI and Chat Animation. They looked nice, but they cost FPS on mid-range PCs.
-- In total the pack has 32 fewer mods and is 110 MB smaller to download.
+## Bug fixes
+- **Fixed items being duplicated or deleted by the tool belt.** Inventorio's tool belt could copy a tool into your selected hotbar slot and delete whatever was there. This is a known Inventorio bug with no fix available, so Inventorio is removed and **Traveler's Tool Belt** replaces it. It's an upgradeable tool belt in a Curios slot with quick-swap.
+- **Fixed structures not spawning.** The biome replacer stopped IDAS, L_Ender's Cataclysm and other structures from generating, so it's switched off. Regions Unexplored biomes still generate normally.
+- **Carry On** can no longer pick up corpses or rope blocks. Picking them up could break them or lose items.
+- Crash reports and the window title now show the right version, v2.5.1.
 
-## Quests and guides
-- Ember's Questing replaces FTB Quests. Quest books are data-driven, progress is saved on the server, and resource packs can restyle the UI. It also replaces the rest of the FTB stack (Quests, UI Overhaul, Library, Teams, XMod Compat, Filter System).
-- Miso's Little Guide adds welcome screens, tutorials and dialogue with Miso, the pack's mascot, to help new players get started.
-- Lunchtime's Little Cookbook is an in-game cookbook that lists every food in the pack, its nutrition and every way to cook it.
-- Patchouli is added for mods that ship their guides as Patchouli books.
-- Bosses and quest enemies have double health. That covers the Ender Dragon, the Wither, the Warden and every L_Ender's Cataclysm boss, which went down too fast once you had good gear.
-- Plushie Buddies used to be a crafting recipe and are now a collectible quest line.
+## Less duplicate content
+17 Quark features are back on, because no other mod in the pack adds them:
+- **Building:** Gold Bars, Raw Metal Bricks, Industrial Palette, Rainbow Lamps, Celebratory Lamps, Duskbound Blocks, Wooden Posts, Nether Brick Fence Gate
+- **Items:** Torch Arrow, Skull Pikes, Ambient Discs, Endermosh Music Disc, Pathfinder Maps, Bottled Cloud, Glass Shard, Dyeable Item Frames
+- **Redstone:** Redstone Randomizer
 
-## Jobs and economy
-- Miso Jobs & Careers replaces Jobs+. You pick a job (Farmer, Miner, Chef or Rancher) and earn XP by doing that work. Leveling up unlocks recipes, tools and machines, so your job now decides how you progress.
-- Create: Numismatics replaces Shoppy. It's a Create-style currency that works with redstone, and the coin recipes and exchange rates are balanced for survival.
+Quark features that another mod already provides stay off: Framed Glass (Create), Soul Sandstone (BetterNether), crates (Farmer's Delight), extra brick, mud and stone variants (Chipped), Leaf Carpet (Regions Unexplored), Vertical Slabs (Supplementaries), Dragon Scales (Butchery and Dragon Loot), Totem of Holding (Corpse) and Iron Rod (Pantographs & Wires).
 
-## New mods
-Create
-- Numismatics: coins and currency
-- Liquid Fuel: pipe liquid fuel into blaze burners
-- Pantographs & Wires: catenary wires and pantographs for electric trains
-- Create Cobblestone: a stress-powered cobblestone generator that doesn't lag like a lava-and-water one
-- Schematic Checker: fixes broken schematics
+WI Zoom is replaced by **Ok Zoomer**, so the pack has a single zoom mod.
 
-Food and drink
-- [Let's Do] HerbalBrews: new flowers and tea brewing
-- [Let's Do] Brewery: beer brewing and pretzels
-- Pizza Delight: pizzas for Farmer's Delight
-
-Building and decor
-- Effortless Building: mirror, array and build-mode tools
-- Every Compat (Wood Good and Stone Zone): other mods' blocks in every wood and stone type
-- Fairy Lights: string lights, bunting and garlands
-- Pool Table: a playable 8-ball table with real ball physics
-- Vista: TV and camera blocks
-
-Storage
-- Tom's Simple Storage: a vanilla-style storage network, a cheap early-game option before Create logistics. The Create: Better Tom's Storage GUI resource pack restyles it to match Create.
-
-Exploration and world
-- MVS (Moog's Voyager Structures): 160+ vanilla-style structures with loot
-- Explorify: vanilla-friendly dungeons and structures
-- YUNG's Better Witch Huts: reworked swamp witch huts
-- Spelunkery+: Spelunkery support for other mods' ores
-- Mining Utility: Reforged: mining helpers like the Escape Rope and mining helmets
-- Biome Replacer: swaps biomes at the pack level
-- Lunch Worlds: custom Lunchtime content, a hound boss with its own summon item and trophy
-
-Mobs
-- Naturalist: new overworld wildlife with its own behaviors
-
-Atmosphere
-- Gentle Seasons: longer days, shorter nights and more rewarding rain
-- ATMOSPHERICS: an in-game editor for fog, sky, clouds and stars (press B)
-- Weather Glass: rain, frost and sand show up on glass
-- Soul Fire'd: soul fire gets its own damage and enchantments
-
-Player and QoL
-- Punchy! Moves: third-person animations, a shoulder camera and emotes, built on Punchy
-- Weavers Paradise: make thread and fabric, then dyeable clothing
-- Corpse (with Curios compat): your items stay in a corpse when you die, Curios slots included
-- Open Parties and Claims (with PvP Support): parties, chunk claims and forceloading, shown on Xaero's map
-- Snail Mail: send packages to friends with envelopes and stamps
-- Ok Zoomer: configurable zoom
-- Auto Stack Refill: refills an empty hotbar slot from your inventory
-- e4mc: open your world to friends over the internet without port forwarding
-
-Resource packs
-- Soft Weather: rain and snow get in the way less
-- Alternative Rain Sounds: new rain and thunder sounds
-
-## Replaced
-| Old | New | Why |
-|---|---|---|
-| Better Days (day length, faster sleep) | Gentle Seasons | Longer days and shorter nights, and rain is worth having |
-| GraveStone and the Better Gravestones resource pack | Corpse with Curios compat | Also keeps items in Curios slots |
-| FTB Chunks (with Xaero compat) | Open Parties and Claims | Parties, claims and forceloading in one mod, with Xaero's map support and optional PvP |
-| Mighty Mail | Snail Mail | Packages, envelopes and stamps fit the cozy style better |
-| WI Zoom | Ok Zoomer | Configurable zoom |
-| e4all (unofficial fork) | e4mc | The official version |
-| Shoulder Surfing, Not Enough Animations, Touch'n Motion | Punchy! Moves | One mod covers the animations and the camera |
-| Alex's Mobs (with Alex's Delight, Relics compat and the Sweety's Items resource pack) | Naturalist | Calmer, vanilla-style wildlife for a cozy pack |
-| Create: Easy Stone Generators | Create Cobblestone | A stress-powered generator that fits Create progression |
+## Added
+- Traveler's Tool Belt
+- Straw Statues: player statues for your builds
+- Windy: Configurable, for wind effects
+- JEI, Just Enough Resources, Just Enough Professions, Just Enough Effect Descriptions, Just Enough Breeding
+- Ok Zoomer
 
 ## Removed
-- Creeper Overhaul and Enderman Overhaul added biome variants of creepers and endermen, and they added a lot of lag.
-- Bosses'Rise is an MCreator mod. It didn't fit the pack and it caused lag.
-- Dungeon Now Loading was cool, but too buggy to keep.
-- Bosses now come from Cataclysm and the quests, with double health.
-- Goblin Traders and Chef's Delight (Chef and Cook villagers for Farmer's Delight).
-- Create: Misc & Things, Realm RPG Treasure Balloons, Jumpy Boats, Bridging Mod, Underlay, Visual Workbench, RightClickHarvest, Villager Names and Item Restrictions were small features, cut to slim the pack down.
-- Streams Reflowing (world-generation rivers and streams) caused lag.
-- Cool Rain is replaced by the Alternative Rain Sounds resource pack.
-- Fresh Animations and its Player Extension animated every entity and cost too much FPS.
-- No Chat Reports, Resource Pack Overrides and Cubes Without Borders aren't needed anymore.
-- Insanity Shader.
-- Libraries nothing uses anymore: Arc Lib, Majrusz Library, Modonomicon, Lithostitched, Blueprint, CorgiLib and others.
+- Inventorio: item dupe and delete bug
+- EMI and its addons, and TMRV: replaced by JEI
+- WI Zoom: replaced by Ok Zoomer
+- Sodium Options API and TxniLib: libraries that no mod uses anymore
 
 ## Updated
-- Forge 47.4.28 to 47.4.29
-- 30 mods, including Sophisticated Backpacks and Sophisticated Core, ModernFix, Punchy (2.8 to 3.2), Too Many Bows, Kaleidoscope Chinese Food and Immersive Eating, FancyMenu, Exposure, Field Guide, Moonlight and Collective.
+- Ember's Questing 1.8.0 → 1.9.0
+- Lunchtime's Little Cookbook 1.0.4 → 1.0.5
+- Lunchtime Jobs 1.0.6 → 1.0.7
+- Miso's Little Guide 1.7.3 → 1.7.4
+- Fancy Tab Sections 6.2.3 → 6.3
+- Structure Layout Optimizer 1.0.11 → 1.0.12
+- Weather Glass 0.6.0 → 0.6.2
 
-## Config and balance
-- Phantoms are gone, because they punished long building and cooking sessions. Recipes that used phantom membrane now use other items.
-- Artifacts mimics are disabled. Losing loot to a surprise chest isn't cozy.
-- Zombies, skeletons and creepers spawn 30% less, so nights are calmer.
-- MVS replaces vanilla desert and jungle temples with its own versions.
-- Elytra can be repaired at an anvil, since there are no phantoms to farm membrane from.
-- The Mining Utility mining helmet has a new crafting recipe.
-- Fairy Lights can't be crafted. All of their recipes were removed.
-- Waystones, Easy Villagers and Numismatics recipes are rebalanced, so fast travel and automation show up at a fair point in progression.
-- Recipes and tags are unified across mods. Each ingredient is one item, which gets rid of duplicates and broken recipes.
-- Fixed broken Kaleidoscope furniture textures from Every Compat, an Ember's Questing world-loading issue, and Punchy keybinds resetting to defaults.
-- Particular's waterfall particles (cascades) are off, for FPS.
-- New main menu, loading screen and update screen.
+## Quests and UI
+- The quest book button in your inventory is now a rose ribbon, between your player model and the crafting grid.
+- Cleaned up duplicate and leftover files in the quest pack.
+- The minimap moved to the top left of the screen, and the FPS counter moved to the right.
+
+**Server owners:** update the mods and copy the new `config` folder to your server, and remove Inventorio and the EMI mods there too.
