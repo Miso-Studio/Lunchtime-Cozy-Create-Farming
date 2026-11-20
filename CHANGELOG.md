@@ -6,7 +6,7 @@ A big quality-of-life update: a new storage system, a new map and claims mod, a 
 > **Before updating:**
 > - **Storage Drawers is removed.** Your drawers turn into Sophisticated Storage Limited Barrels when the world loads, with their items inside. Make a backup first just in case.
 > - **Easy Villagers is removed.** Its blocks give their villagers back, and villager items become spawn eggs.
-> - **Xaero's maps and Open Parties and Claims are removed.** Waypoints and claims don't carry over, so write down important coordinates and claim your land again with Ember's Teams and Claims.
+> - **Xaero's maps and Open Parties and Claims are removed.** You just need to import them  :  /claims admin import opac  
 
 ## Storage: Sophisticated Storage
 - **Storage Drawers → Sophisticated Storage.** Existing drawers become Limited Barrels.
