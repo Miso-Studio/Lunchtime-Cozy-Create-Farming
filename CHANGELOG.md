@@ -2,10 +2,11 @@
 
 A big quality-of-life update: a new storage system, a new map and claims mod, a Jobs rework where every job earns XP, better performance, and keybinds that don't clash. Boats are back to normal speed and villagers never run out of trades.
 
-**⚠️ Before updating:**
-- **Storage Drawers is removed.** Your drawers turn into Sophisticated Storage Limited Barrels when the world loads, with their items inside. Make a backup first just in case.
-- **Easy Villagers is removed.** Its blocks give their villagers back, and villager items become spawn eggs.
-- **Xaero's maps and Open Parties and Claims are removed.** Waypoints and claims don't carry over, so write down important coordinates and claim your land again with Ember's Teams and Claims.
+> [!WARNING]
+> **Before updating:**
+> - **Storage Drawers is removed.** Your drawers turn into Sophisticated Storage Limited Barrels when the world loads, with their items inside. Make a backup first just in case.
+> - **Easy Villagers is removed.** Its blocks give their villagers back, and villager items become spawn eggs.
+> - **Xaero's maps and Open Parties and Claims are removed.** Waypoints and claims don't carry over, so write down important coordinates and claim your land again with Ember's Teams and Claims.
 
 ## Storage: Sophisticated Storage
 - **Storage Drawers → Sophisticated Storage.** Existing drawers become Limited Barrels.
@@ -77,42 +78,52 @@ A big quality-of-life update: a new storage system, a new map and claims mod, a 
 - ObsidianUI (library)
 
 ## Removed
-- Storage Drawers and Smooth Drawers: replaced by Sophisticated Storage
-- Easy Villagers
-- Xaero's Minimap and Xaero's World Map: replaced by Ember's Atlas
-- Open Parties and Claims and its PvP Support addon: replaced by Ember's Teams and Claims
-- Easy Mob Spawn Control: spawn rates are set by the pack now
-- Default Options: the pack sets up new players now
-- Sodium Extras and Sodium Dynamic Lights: replaced by Chloride and RyoamicLights
-- Inventory Particles, Item Borders, Soul Fire'd, Icon Fresh
-- Biome Replacer (it was already switched off)
-- MossyLib (a library nothing used)
+| Mod | Why / replaced by |
+|---|---|
+| Storage Drawers and Smooth Drawers | Replaced by Sophisticated Storage |
+| Easy Villagers | Villagers come back out of its blocks |
+| Xaero's Minimap and Xaero's World Map | Replaced by Ember's Atlas |
+| Open Parties and Claims and its PvP Support addon | Replaced by Ember's Teams and Claims |
+| Easy Mob Spawn Control | Spawn rates are set by the pack now |
+| Default Options | The pack sets up new players now |
+| Sodium Extras and Sodium Dynamic Lights | Replaced by Chloride and RyoamicLights |
+| Inventory Particles, Item Borders, Soul Fire'd, Icon Fresh | Cut to slim the pack down |
+| Biome Replacer | It was already switched off |
+| MossyLib | A library nothing used |
 
 ## Updated
-- AllTheLeaks 1.1.5 → 1.1.6
-- Collective 8.86 → 8.87
-- Every Compat 2.9.28 → 2.9.30
-- FastALI 2.1 → 2.2
-- FastChunkGen 0.43 → 0.44
-- Field Guide 1.24.0 → 1.25.0
-- Gentle Seasons 1.0.3 → 1.0.6
-- Gnetum 2.5.1 → 2.5.2
-- Immersive Melodies 0.8.2 → 0.8.4
-- JEI 15.74 → 15.75
-- Kaleidoscope: Dimensions Wine 1.1.9 → 1.1.11
-- Kaleidoscope World Liquor 1.1.13 → 1.2.0
-- Lunch Worlds 1.8.1 → 1.8.5
-- Lunchtime's Little Cookbook 1.0.5 → 1.0.6
-- Miso Jobs & Careers 1.0.7 → 1.0.12
-- ModernFix 5.27.93 → 5.28.0
-- Pool Table 1.7.0 → 1.7.1
-- Punchy 3.2a → 3.2b
-- Sophisticated Backpacks 3.26.20 → 3.26.21
-- Sophisticated Core 1.5.33 → 1.5.37
-- Supplementaries 3.1.44 → 3.1.45
-- Traveler's Tool Belt 1.0.7 → 1.0.8
-- Weaver's Paradise 1.6.4 → 1.6.4.1
+<details>
+<summary>23 mods updated</summary>
 
-**Server owners:** update the mods and copy the new `config`, `defaultconfigs` and `kubejs` folders to your server. Remove Storage Drawers, Easy Villagers, Open Parties and Claims and Easy Mob Spawn Control there too. In `world/serverconfig/smallships-server.toml`, set `vanillaBoatSlowdownEnable = false` to get normal boat speed on an existing world.
+| Mod | Old | New |
+|---|---|---|
+| AllTheLeaks | 1.1.5 | 1.1.6 |
+| Collective | 8.86 | 8.87 |
+| Every Compat | 2.9.28 | 2.9.30 |
+| FastALI | 2.1 | 2.2 |
+| FastChunkGen | 0.43 | 0.44 |
+| Field Guide | 1.24.0 | 1.25.0 |
+| Gentle Seasons | 1.0.3 | 1.0.6 |
+| Gnetum | 2.5.1 | 2.5.2 |
+| Immersive Melodies | 0.8.2 | 0.8.4 |
+| JEI | 15.74 | 15.75 |
+| Kaleidoscope: Dimensions Wine | 1.1.9 | 1.1.11 |
+| Kaleidoscope World Liquor | 1.1.13 | 1.2.0 |
+| Lunch Worlds | 1.8.1 | 1.8.5 |
+| Lunchtime's Little Cookbook | 1.0.5 | 1.0.6 |
+| Miso Jobs & Careers | 1.0.7 | 1.0.12 |
+| ModernFix | 5.27.93 | 5.28.0 |
+| Pool Table | 1.7.0 | 1.7.1 |
+| Punchy | 3.2a | 3.2b |
+| Sophisticated Backpacks | 3.26.20 | 3.26.21 |
+| Sophisticated Core | 1.5.33 | 1.5.37 |
+| Supplementaries | 3.1.44 | 3.1.45 |
+| Traveler's Tool Belt | 1.0.7 | 1.0.8 |
+| Weaver's Paradise | 1.6.4 | 1.6.4.1 |
 
-Full mod list, performance guide and bug reports: https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming
+</details>
+
+> [!NOTE]
+> **Server owners:** update the mods and copy the new `config`, `defaultconfigs` and `kubejs` folders to your server. Remove Storage Drawers, Easy Villagers, Open Parties and Claims and Easy Mob Spawn Control there too. In `world/serverconfig/smallships-server.toml`, set `vanillaBoatSlowdownEnable = false` to get normal boat speed on an existing world.
+
+Found a bug? [Open an issue](https://github.com/Miso-Studio/Lunchtime-Cozy-Create-Farming/issues).
